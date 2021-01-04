@@ -104,6 +104,8 @@ def find_optimal_lm_mod(X, y, cutoffs, test_size = .30, random_state=42, plot=Tr
     lm_model.fit(X_train, y_train)
 
     return r2_scores_test, r2_scores_train, lm_model, X_train, X_test, y_train, y_test
+	
+	## coment test git
 
 def main():
     df = pd.read_csv('../Part1/stackoverflow/survey_results_public.csv')
